@@ -1,0 +1,20 @@
+services:
+  proxy:
+    build:
+      context: ./proxy
+      dockerfile: Dockerfile
+    image: softy-pinko-proxy:latest
+    ports:
+      - "80:80"
+
+  front:
+    build:
+      context: ./front-end
+      dockerfile: Dockerfile.front
+    image: softy-pinko-front:latest
+
+  back:
+    build:
+      context: ./back-end
+      dockerfile: Dockerfile.back
+    image: softy-pinko-back:latest
