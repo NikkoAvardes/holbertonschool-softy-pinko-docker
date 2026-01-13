@@ -1,1 +1,1 @@
-docker-compose up --scale back=2
+docker-compose up --scale back-end=2
