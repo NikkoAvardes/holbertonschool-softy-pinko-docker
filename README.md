@@ -19,7 +19,6 @@ Ce projet démontre la conteneurisation d'une application web moderne composée 
 ├── task4/          # Docker Compose
 ├── task5/          # Ajout du reverse proxy
 ├── task6/          # Load balancing et scaling
-└── tests/          # Suite de tests automatisés
 ```
 
 ## 🚀 Démarrage rapide
